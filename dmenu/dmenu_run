@@ -1,0 +1,2 @@
+#!/bin/sh
+compgen -ac | sort -u | dmenu "$@" | ${SHELL:-"/bin/sh"} &
